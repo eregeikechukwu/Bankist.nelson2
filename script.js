@@ -20,7 +20,7 @@ const account1 = {
     '2020-03-12T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'ph-NG', // de-DE
+  locale: 'pt-PT', // de-DE
 };
 
 const account2 = {
@@ -45,28 +45,28 @@ const account2 = {
 
 const account3 = {
   owner: 'Emmanuel Erege',
-  movements: [100, 955.2, -306.5, 2500, -642.21, -133.9, 79.9, 1300],
-  interestRate: 1.7, // %
+  movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
+  interestRate: 1.2, // %
   pin: 1122,
 
   movementsDates: [
-    '2023-02-18T09:15:04.904Z',
-    '2023-05-01T10:17:24.185Z',
-    '2023-05-07T17:01:17.194Z',
-    '2023-07-11T23:36:17.929Z',
-    '2023-10-18T21:31:17.178Z',
-    '2023-12-23T07:42:02.383Z',
-    '2024-01-00T14:11:59.604Z',
-    '2024-03-12T10:51:36.790Z',
+    '2019-01-28T09:15:04.904Z',
+    '2019-04-01T10:17:24.185Z',
+    '2019-05-27T17:01:17.194Z',
+    '2019-07-11T23:36:17.929Z',
+    '2019-11-18T21:31:17.178Z',
+    '2019-12-23T07:42:02.383Z',
+    '2020-03-08T14:11:59.604Z',
+    '2020-03-12T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'imo-NG', // de-DE
+  locale: 'pt-PT', // de-DE
 };
 
 const account4 = {
   owner: 'Nelson Erege',
   movements: [1000, -235, -306.5, 2500, 604.21, -173, 80, 1300],
-  interestRate: 1.7, // %
+  interestRate: 1.5, // %
   pin: 2244,
 
   movementsDates: [
@@ -80,7 +80,7 @@ const account4 = {
     '2024-03-12T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'ph-NG', // de-DE
+  locale: 'pt-PT', // de-DE
 };
 
 const accounts = [account1, account2, account3, account4];
